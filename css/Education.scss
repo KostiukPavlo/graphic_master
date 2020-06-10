@@ -1,0 +1,59 @@
+%iconstyle {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+	background-color: #2ecc71;
+	display: inline-block;
+	padding: 0 8px;
+}
+
+.education {
+	@media screen and (min-width: 1200px) {
+		padding-top: 80px;
+		float: left;
+		width: 44%;
+	}
+
+	.education__subtitle {
+		@extend %h2style;
+		text-align: center;
+		margin: 0;
+		padding: 30px 0;
+	}
+}
+
+.education__diploma-Wrapper {
+	@media screen and (min-width: 1200px) {
+		display: inline-block;
+		width: 45%;
+		padding: 154px 0 99px 74px;
+	}
+
+	.education__diploma {
+		display: inline-block;
+
+		.education__diploma-Text {
+			padding-top: 20px;
+	}
+
+		.education__diploma-Items {
+			padding-bottom: 30px;
+			border-bottom: 1px solid #cccccc;
+
+		span {
+			font-weight: 500;
+		}
+	}
+
+	.icon {
+		@extend %iconstyle;
+	}
+	}
+}
+
+
+h3 {
+	@extend %h3style;
+}
